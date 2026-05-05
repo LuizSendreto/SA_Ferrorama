@@ -7,10 +7,10 @@ Criar um aplicativo que receba, processe e exiba em tempo real os dados enviados
 Desenvolver sistema de monitoramento ferroviário em tempo real, com sensores iot, processamento e análise de dados.
 
 ## Membros da equipe:
-Luiz Felipe Sendreto Dias
-Juana Franciscão 
-Nicole Jordan Amaral
-Rafael Tironi
+Luiz Felipe Sendreto dos Santos.
+Juana Franciscão.
+Nicole Jordan Amaral.
+Rafael Tironi.
 
 ## Funcionalidades 
 Recebimento de dados em tempo real.
