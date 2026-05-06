@@ -18,7 +18,10 @@ main {
     background-image: url("../img/fundo_index4.jpg");
 }
 
-.botao {
+
+.btn.btn-primary {
+    display: flex;
+    
     position: absolute;
     bottom: 90px;
     left: 44%;
@@ -28,4 +31,5 @@ main {
     border-radius: 5px;
     font-weight: bold;
     font-size: 40px;
+    border-color: #b30000;
 }
