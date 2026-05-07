@@ -141,3 +141,15 @@ form {
 
 }
 
+.Strain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    margin-right: 250px;
+    margin-left: 0px;
+    margin-top: 150px;
+    width: 500px;
+    height: 600px;
+}
+
