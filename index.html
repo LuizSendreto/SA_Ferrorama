@@ -1,23 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strain</title>
+
     <link rel="stylesheet" href="./assets/style/style.css">
 
-
-     <img src="assets/img/Strain_navbar_index" alt="">
-
-          <div class="col-12">
-          <button type="submit" class="btn btn-primary">Entrar</button>
-        </div> 
-
 </head>
+
 <body>
-    <main>
-       
+
+    <nav class="navbar">
+
+        <div class="logo-navbar" id="logoNavbar">
+            <img src="assets/img/logo_navbar2.png" alt="Logo Strain">
+        </div>
+
+        <button class="btn">Entrar</button>
+
+    </nav>
+
+    <section class="banner">
+
+        <div class="logo-banner">
+            <img src="assets/img/banner_logo2.png" alt="Logo Grande">
+        </div>
+
+    </section>
+
+    <main class="conteudo">
+        <h1>Conteúdo da página</h1>
+        <p>Role a página para ver o logo aparecer na navbar.</p>
     </main>
 
+    <script>
+
+        window.addEventListener("scroll", function () {
+
+            const logoNavbar = document.getElementById("logoNavbar");
+
+            if (window.scrollY > 200) {
+                logoNavbar.classList.add("show");
+            } else {
+                logoNavbar.classList.remove("show");
+            }
+
+        });
+
+    </script>
+
 </body>
+
 </html>
