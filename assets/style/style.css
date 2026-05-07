@@ -1,22 +1,16 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 img {
-  align-items: center;
-  width: 100%;
-  height: 450px;
-  display: block;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    display: block;
 }
 
-#main_index {
-    min-height: 1000px; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url("../img/fundo_index4.jpg");
-}
+
 
 
 .btn.btn-primary {
@@ -46,13 +40,14 @@ img {
 
 .btn.btn-outline-danger {
     display: flex;
-     border-color: #810000;
-      background: #850000;
+    border-color: #810000;
+    background: #850000;
     color: rgb(253, 249, 243);
     border-radius: 30px;
-      width: 200px;
-      justify-content: center;
+    width: 200px;
+    justify-content: center;
 }
+
 #titulo_login {
     font-size: 40px;
     font-weight: bold;
@@ -60,7 +55,8 @@ img {
     margin-bottom: 20px;
 }
 
-#email, #senha {
+#email,
+#senha {
     width: 300px;
     padding: 10px;
     margin-bottom: 20px;
@@ -70,31 +66,33 @@ img {
 }
 
 input::placeholder {
-  color: #850000;
+    color: #850000;
 }
 
 
-body {
+.body_telalogin {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: flex-end;
     background-image: url("../img/Captura\ de\ tela\ 2026-05-07\ 095347.png");
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 1000px; 
+    min-height: 1000px;
+    margin: 0;
+
 }
 
 
 
 .blue {
     padding: 100px;
-    background-color:  rgb(253, 249, 243);
+    background-color: rgb(253, 249, 243);
     border-radius: 20px;
     display: flex;
-   margin-right: 200px;
-    align-items: center; 
-    
+    margin-right: 200px;
+    align-items: center;
+
 }
 
 .cadastro {
@@ -135,3 +133,63 @@ form {
 
 }
 
+
+.body_index {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background: #940404;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.logo-navbar {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.logo-navbar.show {
+    opacity: 1;
+}
+
+.logo-navbar img {
+    height: 50px;
+}
+
+.banner {
+    height: 500px;
+    background: #940404;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-banner img {
+    width: 100%;
+}
+
+.conteudo {
+    height: 1200px;
+    background: #f0f0f0;
+    padding: 40px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    color: #9b0000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
