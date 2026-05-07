@@ -74,11 +74,11 @@ input::placeholder {
 }
 
 
-body {
+.body_telalogin{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: flex-end;
-    background-image: url("../img/Captura\ de\ tela\ 2026-05-07\ 095347.png");
+    background-image: url("../img/Tela\ de\ login.png");
      background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -92,7 +92,8 @@ body {
     background-color:  rgb(253, 249, 243);
     border-radius: 20px;
     display: flex;
-   margin-right: 200px;
+   margin-right: 50px;
+   margin-left: 100px;
     align-items: center; 
     
 }
@@ -113,6 +114,11 @@ body {
 }
 
 .flex {
+   
+    background-color:#850000; 
+    border-bottom-left-radius: 500px;
+     border-top-left-radius: 500px;
+
     display: flex;
     justify-content: center;
     align-items: center;
