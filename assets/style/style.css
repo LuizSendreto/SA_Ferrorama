@@ -74,7 +74,7 @@ input::placeholder {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: flex-end;
-    background-image: url("../img/Captura\ de\ tela\ 2026-05-07\ 095347.png");
+    background-image: url("../img/Tela\ de\ login.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -91,6 +91,10 @@ input::placeholder {
     border-radius: 20px;
     display: flex;
     margin-right: 200px;
+    align-items: center;
+
+    margin-right: 50px;
+    margin-left: 100px;
     align-items: center;
 
 }
@@ -111,6 +115,11 @@ input::placeholder {
 }
 
 .flex {
+
+    background-color: #850000;
+    border-bottom-left-radius: 500px;
+    border-top-left-radius: 500px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,4 +201,16 @@ form {
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.Strain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    margin-right: 250px;
+    margin-left: 0px;
+    margin-top: 150px;
+    width: 500px;
+    height: 600px;
 }
