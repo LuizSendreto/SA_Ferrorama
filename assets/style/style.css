@@ -10,7 +10,7 @@ img {
     display: block;
 }
 
-main {
+#main_index {
     min-height: 1000px; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,15 +21,117 @@ main {
 
 .btn.btn-primary {
     display: flex;
-    
+
     position: absolute;
     bottom: 90px;
     left: 44%;
-    background: #b30000;
+    background: #850000;
     color: white;
     padding: 10px 30px;
     border-radius: 5px;
     font-weight: bold;
     font-size: 40px;
-    border-color: #b30000;
+    border-color: #810000;
 }
+
+.container_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: 100px;
+    background-color: rgb(253, 249, 243);
+}
+
+.btn.btn-outline-danger {
+    display: flex;
+     border-color: #810000;
+      background: #850000;
+    color: rgb(253, 249, 243);
+    border-radius: 30px;
+      width: 200px;
+      justify-content: center;
+}
+#titulo_login {
+    font-size: 40px;
+    font-weight: bold;
+    color: #850000;
+    margin-bottom: 20px;
+}
+
+#email, #senha {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #850000;
+    border-radius: 20px;
+    background-color: rgb(253, 249, 243);
+}
+
+input::placeholder {
+  color: #850000;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("../img/Captura\ de\ tela\ 2026-05-07\ 095347.png");
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px; 
+}
+
+
+
+.blue {
+    padding: 100px;
+    background-color:  rgb(253, 249, 243);
+    border-radius: 20px;
+    display: flex;
+   margin-right: 200px;
+    align-items: center; 
+    
+}
+
+.cadastro {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.link1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #850000;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #850000;
+
+}
+
+#botao_login {
+    justify-content: center;
+    align-items: center;
+
+}
+
