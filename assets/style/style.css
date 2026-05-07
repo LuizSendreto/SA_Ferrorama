@@ -60,7 +60,7 @@ img {
     margin-bottom: 20px;
 }
 
-#email, #senha {
+#email, #senha, #nomeUsuario {
     width: 300px;
     padding: 10px;
     margin-bottom: 20px;
@@ -94,13 +94,21 @@ input::placeholder {
     display: flex;
    margin-right: 50px;
    margin-left: 100px;
+   height: 520PX;   
+   width: 400px;
     align-items: center; 
+    justify-content: center;
+    
     
 }
 
 .cadastro {
-    display: flex;
-    margin-bottom: 90px;
+            display: flex;
+            margin-bottom: 90px;
+}
+.cadastrar{
+     display: flex;
+            margin-bottom: 150px;
 }
 
 .link1 {
@@ -152,4 +160,15 @@ form {
     width: 500px;
     height: 600px;
 }
+
+#titulo_cadastro {
+    
+    margin-bottom: 20px;
+    
+     font-size: 40px;
+    font-weight: bold;
+    color: #850000;
+    
+}
+
 
