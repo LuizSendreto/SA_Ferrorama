@@ -230,3 +230,10 @@ form {
     color: #850000;
 
 }
+
+.form-check-input {
+    background-color: #bd5e5e;
+    border-color: #810000;
+    box-shadow: #850000;
+}
+
