@@ -28,49 +28,79 @@
         </div>
 
     </section>
-
     <main class="blue.index">
+        <div class="Introducao1">
+
+            <h2><b class="Introducao">Bem-vindo ao Strain, o sistema de transporte público de Joinville!</b></h2>
+            <h4 class="Introducao">O STRAIN nasceu do desafio de levar a inteligência de dados para os trilhos. Criamos
+                um sistema <br> que vai além do básico, usando sensores IoT
+                para monitorar tudo o que importa em tempo <br> real — da velocidade ao consumo de energia. Por trás
+                dessa solução, estamos nós, Luiz Felipe, <br>
+                Rafael Tironi, Nicola Jordan e Juana Franciscao, trabalhando para transformar números brutos em <br>
+                dashboards práticos e relatórios de manutenção
+                preditiva. Nosso foco é unir tecnologia e mobilidade <br> urbana para garantir que a gestão ferroviária
+                seja mais segura, eficiente e conectada, sempre <br>
+                com o pé no chão e o código em dia.</h4>
+        </div>
+
+
 
         <div class="container_index">
-             
+
             <div class="flex2">
-    <div> 
-        <H3><b>Linhas disponíveis em Joinville SC </b></H3>
-    </div>
-            
-                <button id="botao_index" type="submit" class="btn btn-outline2">Linha Azul (Sul)</button>
 
-                <button id="botao_index" type="submit" class="btn btn-outline2">Linha Verde (Centro)</button>
+                <div>
+                    <H3><b class="titulo_linhas">Linhas disponíveis em Joinville SC </b></H3>
+                </div>
 
-                <button id="botao_index" type="submit" class="btn btn-outline2">Linha Amarela (Itaum)</button>
+                <br>
+                <Div class="container_index">
+                    <div class="linhas">
 
-                <button id="botao_index" type="submit" class="btn btn-outline2">Linha Vermelha (Villa
-                    Nova)</button>
+                        <div class="linhas">
+                            <button id="botaoindex" type="submit" class="btn btn-outline2"><img class="foto_linhas"
+                                    src="assets/img/Captura de tela 2026-05-12 072739.png"
+                                    alt="Foto dos trens"></button>
+                        </div>
+                    </div>
 
+                    <div class="linhas">
+                        <button id="botao_index" type="submit" class="btn btn-outline2">Linha Azul (Sul)</button>
+
+                        <button id="botao_index" type="submit" class="btn btn-outline2">Linha Verde (Centro)</button>
+
+                        <button id="botao_index" type="submit" class="btn btn-outline2">Linha Amarela (Itaum)</button>
+
+                        <button id="botao_index" type="submit" class="btn btn-outline2">Linha Vermelha (Villa
+                            Nova)</button>
+                    </div>
+                </div>
             </div>
 
-      
-   
-        
-            <img class="Mapa" src="assets/img/Mapa.png" alt="Mapa dos trens">
-        </div>
-        </main>
- 
-        <script>
 
-            window.addEventListener("scroll", function () {
 
-                const logoNavbar = document.getElementById("logoNavbar");
 
-                if (window.scrollY > 200) {
-                    logoNavbar.classList.add("show");
-                } else {
-                    logoNavbar.classList.remove("show");
-                }
+            <div>
+                <img class="Mapa" src="assets/img/Mockup- SA Juana, Luiz, Nicole, Rafael.png" alt="Mapa dos trens">
 
-            });
+            </div>
+    </main>
 
-        </script>
+    <script>
+
+        window.addEventListener("scroll", function () {
+
+            const logoNavbar = document.getElementById("logoNavbar");
+
+            if (window.scrollY > 200) {
+                logoNavbar.classList.add("show");
+            } else {
+                logoNavbar.classList.remove("show");
+            }
+
+        });
+
+    </script>
 
 </body>
 

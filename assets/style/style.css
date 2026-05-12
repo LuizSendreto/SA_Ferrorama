@@ -152,6 +152,10 @@ form {
 .body_index {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/Tela\ de\ login.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .navbar {
@@ -246,43 +250,100 @@ form {
 
 .flex2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   background-color: #850000;
-   height: 450px;
-   width: 400px;
-   border-radius: 50px;
+    background-color: #850000;
+    height: 510px;
+    width: 460px;
+    border-radius: 50px;
     color: aliceblue;
-    display: flex;
-    justify-content: center;
+    margin: 50px;
     align-items: center;
-    margin-top: 20PX;
-    margin-left: 20px;
-    flex-direction: column;
+    margin-top: 100px;
+
+
 }
 
 
 
-.btn.btn-outline2{
+.btn.btn-outline2 {
     background-color: #530000;
     color: aliceblue;
-   
     width: 300px;
     height: 50px;
     align-items: center;
     justify-content: center;
-    margin: 3px;
-    margin-top: 30px;
+    margin: 0px;
+    margin-top: 20px;
 
 }
 
-.Mapa{
-    width: 700px;
-    height: 400px;
-    margin: 60px;
+.Mapa {
+    width: 1300px;
+    height: 700px;
+    margin: 20px;
     margin-top: 50px;
+
 }
 
-.container_index{
+.container_index {
     display: flex;
-    margin: 30px;
+    margin: 20px;
+    margin-top: 2px;
 }
 
+#botaoindex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 50px;
+    height: 270px;
+}
+
+.foto_linhas {
+    width: 40px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.linhas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+}
+
+.titulo_linhas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: aliceblue;
+}
+
+.Introducao {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #850000;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 30px;
+    margin: 40px;
+    margin-bottom: 20px;
+
+}
+
+.Introducao1 {
+    background-color: #850000;
+    width: 1100px;
+    margin-left: 350px;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 30px;
+}
