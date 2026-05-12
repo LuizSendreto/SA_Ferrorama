@@ -29,25 +29,48 @@
 
     </section>
 
-    <main class="conteudo">
-        <!-- COLOCAR AS ROTAS DOS TRENS AQUI -->
-    </main>
+    <main class="blue.index">
 
-    <script>
+        <div class="container_index">
+             
+            <div class="flex2">
+    <div> 
+        <H3><b>Linhas disponíveis em Joinville SC </b></H3>
+    </div>
+            
+                <button id="botao_index" type="submit" class="btn btn-outline2">Linha Azul (Sul)</button>
 
-        window.addEventListener("scroll", function () {
+                <button id="botao_index" type="submit" class="btn btn-outline2">Linha Verde (Centro)</button>
 
-            const logoNavbar = document.getElementById("logoNavbar");
+                <button id="botao_index" type="submit" class="btn btn-outline2">Linha Amarela (Itaum)</button>
 
-            if (window.scrollY > 200) {
-                logoNavbar.classList.add("show");
-            } else {
-                logoNavbar.classList.remove("show");
-            }
+                <button id="botao_index" type="submit" class="btn btn-outline2">Linha Vermelha (Villa
+                    Nova)</button>
 
-        });
+            </div>
 
-    </script>
+      
+   
+        
+            <img class="Mapa" src="assets/img/Mapa.png" alt="Mapa dos trens">
+        </div>
+        </main>
+ 
+        <script>
+
+            window.addEventListener("scroll", function () {
+
+                const logoNavbar = document.getElementById("logoNavbar");
+
+                if (window.scrollY > 200) {
+                    logoNavbar.classList.add("show");
+                } else {
+                    logoNavbar.classList.remove("show");
+                }
+
+            });
+
+        </script>
 
 </body>
 
