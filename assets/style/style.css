@@ -100,9 +100,7 @@ input::placeholder {
 
 }
 
-.cadastro {
-    margin-bottom: 90px;
-}
+
 
 .cadastrar {
     display: flex;
@@ -124,9 +122,9 @@ input::placeholder {
     background-color: #850000;
     border-bottom-left-radius: 500px;
     border-top-left-radius: 500px;
-
-    display: flex;
+    padding: 50px;
     justify-content: center;
+    display: flex;
     align-items: center;
 }
 
