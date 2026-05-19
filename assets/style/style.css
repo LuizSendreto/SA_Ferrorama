@@ -101,7 +101,6 @@ input::placeholder {
 }
 
 .cadastro {
-    display: flex;
     margin-bottom: 90px;
 }
 
@@ -257,7 +256,8 @@ form {
     color: aliceblue;
     margin: 50px;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 280px;
+   
 
 
 }
@@ -280,7 +280,7 @@ form {
     width: 1300px;
     height: 700px;
     margin: 20px;
-    margin-top: 50px;
+    margin-top: 220px;
 
 }
 
@@ -342,10 +342,11 @@ form {
 .Introducao1 {
     background-color: #850000;
     width: 1100px;
-    margin-left: 350px;
+    margin-left: 440px;
     padding: 10px;
-    margin-top: 100px;
+    margin-top: 200px;
     border-radius: 30px;
+   
 }
 
 .body_dashboard{
@@ -411,4 +412,10 @@ form {
     margin-top: 80px;
 
     padding: 30px;
+}
+
+#icon_entrar{
+    width: 30px;
+    height: 30px;
+    
 }
