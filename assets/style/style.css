@@ -247,7 +247,7 @@ form {
 
 .flex2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #850000;
+    background-color: #950000;
     height: 510px;
     width: 460px;
     border-radius: 50px;
@@ -263,7 +263,7 @@ form {
 
 
 .btn.btn-outline2 {
-    background-color: #530000;
+    background-color: #950000;
     color: aliceblue;
     width: 300px;
     height: 50px;
@@ -462,4 +462,17 @@ form {
     cursor: pointer;
 
     font-size: 28px;
+    
+}
+
+.btn.btn-outline3 {
+    background-color: #850000;
+    color: aliceblue;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 20px;
+
 }
