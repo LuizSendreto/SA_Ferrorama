@@ -6,7 +6,8 @@
     <title>Visualização de Usuário</title>
 
     <link rel="stylesheet" href="../assets/style/style.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body class="body_dashboard">
@@ -38,14 +39,44 @@
                 <li><a href="../public/alertas.html">Alertas</a></li>
                 <li><a href="../public/relatorios.html">Relatórios</a></li>
                 <li><a href="../public/visu_usuario.html" class="active_sidebar">Visualização de Usuarios</a></li>
-                <li><a href="../public/visu_usuario.html">Visualização de Sensores</a></li>
+                <li><a href="../public/visu_sensores.html">Visualização de Sensores</a></li>
                 <li><a href="../index.html">Logout</a></li>
             </ul>
 
         </aside>
 
-        <section id="section_visu_usuario">
+        <section id="tabela_registro_sensores">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Telefone</th>
+                        <th scope="col">Tipo de usuario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Miguel</td>
+                        <td>miguel@gmail.com</td>
+                        <td>(11) 99999-9999</td>
+                        <td>Usuário Comum</td>
+                    </tr>
+                    <tr>
+                        <td>Juana</td>
+                        <td>juana@gmail.com</td>
+                        <td>(11) 88888-8888</td>
+                        <td>Administrador</td>
+                    </tr>
+                    <tr>
+                        <td>Zonta</td>
+                        <td>zonta@gmail.com</td>
+                        <td>(11) 77777-7777</td>
+                        <td>Usuário Comum</td>
+                    </tr>
+                </tbody>
 
+            </table>
         </section>
 
     </main>
