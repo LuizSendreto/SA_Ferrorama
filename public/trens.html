@@ -17,6 +17,10 @@
         </div>
 
     </nav>
+
+    <main id="main_trens">
+
+        
     
     <aside id="sidebar_dashboard">
 
@@ -34,9 +38,27 @@
 
     </aside>
 
-    <main id="main_trens">
+        <div class="fotos">
+            <img src="../assets/img/trens.png" alt="Trens">
+        </div>
 
-    </main>-
+    </main>
+
+    <script>
+
+        window.addEventListener("scroll", function () {
+
+            const logoNavbar = document.getElementById("logoNavbar");
+
+            if (window.scrollY > 200) {
+                logoNavbar.classList.add("show");
+            } else {
+                logoNavbar.classList.remove("show");
+            }
+
+        });
+
+    </script>
 
 </body>
 
