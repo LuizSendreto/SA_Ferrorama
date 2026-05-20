@@ -480,19 +480,27 @@ form {
 }
 
 .fotos {
+    background-size: cover;
     margin: 0px;
     width: 100%;
     height: 900px;
 
 }
 
-#main_dashboard {
-    margin-left: 0px;
-    margin-top: 0px;
+#main_dashboard{
+    #main_dashboard{
+    margin-left: 250px;
+    margin-top: 60px;
+
+    height: 100%;    
     width: calc(100% - 250px);
-    height: calc(100vh - 70px);
-    overflow: hidden;
-    color: #850000;
+    min-height: calc(100vh - 70px);
+
+    background-image: url('../assets/img/dshb.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 }
 
 .fotos img {
@@ -593,4 +601,131 @@ form {
         font-weight: bold;
         text-align: left;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fotos_dashboard{
+    width: 99%;
+    margin-left: 250px;
+    margin-top: 70px;
+
+    width: calc(100vw - 250px);
+    height: calc(100vh - 70px);
+
+    overflow: hidden;
+}
+
+.fotos_dashboard img{
+    width: 100%;
+    height: 99%;
+
+    object-fit: cover;
+    object-position: center;
+
+    display: block;
 }
