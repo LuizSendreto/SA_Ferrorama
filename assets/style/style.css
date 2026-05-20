@@ -551,7 +551,84 @@ form {
 
 
 
+/* Posição de tabela de registro de sensores */
+#tabela_registro_sensores {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+}
 
-.table table-bordered {
-    display: center;
+/* Estilização da tabela de registro de sensores */
+#tabela_registro_sensores table {
+    max-width: 900px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+}
+/* Estilização do cabeçalho da tabela */
+#tabela_registro_sensores .table thead {
+    background-color: #0d1b2a;
+    color: white;
+}
+
+#tabela_registro_sensores .table thead th {
+    padding: 18px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Estilização das linhas da tabela */
+#tabela_registro_sensores .table tbody td {
+    padding: 16px;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Linhas alternadas */
+#tabela_registro_sensores .table tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+/* Hover */
+#tabela_registro_sensores .table tbody tr:hover {
+    background-color: white;
+    transition: 0.3s;
+}
+
+/* Status */
+#tabela_registro_sensores .table tbody td:last-child {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    #tabela_registro_sensores {
+        padding: 20px;
+    }
+
+    #tabela_registro_sensores .table thead {
+        display: none;
+    }
+
+    #tabela_registro_sensores .table tbody td {
+        display: block;
+        text-align: right;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    #tabela_registro_sensores .table tbody td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-left: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
 }
