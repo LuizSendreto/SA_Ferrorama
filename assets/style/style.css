@@ -509,4 +509,9 @@ form {
     width: calc(100% - 250px);
     height: calc(1050px - 70px);
     overflow: hidden;
+
+}
+
+.table table-bordered {
+    display: center;
 }
