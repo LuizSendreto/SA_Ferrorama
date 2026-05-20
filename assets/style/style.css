@@ -368,6 +368,7 @@ form {
 
 
 #titulo_sidebar {
+    margin-left: 12px;
     color: white;
     font-size: 35px;
     margin-bottom: 40px;
@@ -599,7 +600,9 @@ form {
 }
 
 
-
+a{
+    padding-left: 0;
+}
 
 
 
