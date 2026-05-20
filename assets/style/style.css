@@ -359,7 +359,7 @@ form {
 
 #sidebar_dashboard {
     width: 250px;
-    background-color: #a80000;
+    background-color: #940404;
     height: calc(100vh - 70px);
     position: fixed;
     top: 70px;
@@ -385,16 +385,11 @@ form {
 .menu_sidebar a {
     text-decoration: none;
     color: white;
-
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
-
     display: block;
-
     padding: 12px 15px;
-
     border-radius: 30px;
-
     transition: 0.3s;
 }
 
@@ -487,20 +482,20 @@ form {
 
 }
 
-#main_dashboard{
-    #main_dashboard{
-    margin-left: 250px;
-    margin-top: 60px;
+#main_dashboard {
+    #main_dashboard {
+        margin-left: 250px;
+        margin-top: 60px;
 
-    height: 100%;    
-    width: calc(100% - 250px);
-    min-height: calc(100vh - 70px);
+        height: 100%;
+        width: calc(100% - 250px);
+        min-height: calc(100vh - 70px);
 
-    background-image: url('../assets/img/dshb.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+        background-image: url('../assets/img/dshb.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
 
 .fotos img {
@@ -709,7 +704,7 @@ form {
 
 
 
-.fotos_dashboard{
+.fotos_dashboard {
     width: 99%;
     margin-left: 250px;
     margin-top: 70px;
@@ -720,7 +715,7 @@ form {
     overflow: hidden;
 }
 
-.fotos_dashboard img{
+.fotos_dashboard img {
     width: 100%;
     height: 99%;
 
