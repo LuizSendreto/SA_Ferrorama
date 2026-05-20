@@ -347,7 +347,7 @@ form {
 
 }
 
-.body_dashboard{
+.body_dashboard {
     background-image: url("../img/Tela\ de\ login.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -357,7 +357,7 @@ form {
     height: 100vh;
 }
 
-#sidebar_dashboard{
+#sidebar_dashboard {
     width: 250px;
     background-color: #a80000;
     height: calc(100vh - 70px);
@@ -464,7 +464,7 @@ form {
     cursor: pointer;
 
     font-size: 28px;
-    
+
 }
 
 .btn.btn-outline3 {
@@ -484,7 +484,7 @@ form {
     margin: 0px;
     width: 100%;
     height: 900px;
-    
+
 }
 
 #main_dashboard{
@@ -503,7 +503,7 @@ form {
 }
 }
 
-.fotos img{
+.fotos img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -519,6 +519,7 @@ form {
     overflow: hidden;
 
 }
+
 /* Posição de tabela de registro de sensores */
 #tabela_registro_sensores {
     width: 100%;
@@ -526,7 +527,7 @@ form {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background-color: white;
+
 }
 
 /* Estilização da tabela de registro de sensores */
@@ -538,6 +539,7 @@ form {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     border-collapse: collapse;
 }
+
 /* Estilização do cabeçalho da tabela */
 #tabela_registro_sensores .table thead {
     background-color: #0d1b2a;
