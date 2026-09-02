@@ -19,3 +19,8 @@ Detecção de falhas.
 Análise de dados.
 Relatórios analíticos.
 Gestão de dados.
+
+## Metodologias:
+    DevOps: Decidimos pelo por essa metodologia porque ela permite que a equipe crie uma funcionalidade teste a mesma antes de adicionar mais coisas ao projeto, isso facilita o trabalho colaborativo, traz segurança e velocidade ao desenvolvimento.
+
+    Kanban: O kanban é uma método 
