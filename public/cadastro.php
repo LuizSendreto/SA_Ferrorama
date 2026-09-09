@@ -1,3 +1,32 @@
+<?php
+
+include '../infra/conexao.php';
+
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $telefone = $_POST['telefone'];
+
+    $sql = "INSERT INTO clientes (nome, email, telefone) values (?,?,?)";
+    $stmt = $conn-> prepare($sql);
+    $stmt -> bind_param('sss', $nome,$email,$telefone);
+
+
+    if($stmt->execute()){
+        echo "Cliente cadastrado ";
+        echo '<a href="../index.php">voltar</a>';
+    }else{
+        echo "Erro ao cadastrar" . $stmt->error;
+    }
+   $stmt->close();
+   exit;
+
+   
+
+}
+
+?>
+
 <html class="login" lang="en">
 
 <head>
@@ -28,22 +57,22 @@
                 <form id="form_login">
                     <div class="conjunto">
                         <label for="email" class="form-label"></label>
-                        <input type="email" id="email" placeholder="Digite seu email" required>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
                     </div>
                     <div class="conjunto">
                         <label for="nomeUsuario" class="form-label"></label>
-                        <input type="text" id="nomeUsuario" placeholder="Digite seu nome de usuário" required>
+                        <input type="text" id="nomeUsuario" name="nomeUsuario" placeholder="Digite seu nome de usuário" required>
                     </div>
 
                     <div class="conjunto">
                         <label for="senha" class="form-label"></label>
-                        <input type="password" id="senha" placeholder="Digite sua senha" required>
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
                     </div>
 
 
                     <div class="conjunto">
                         <label for="senha" class="form-label"></label>
-                        <input type="password" id="senha" placeholder="Confirme a sua senha" required>
+                        <input type="password" id="senha" name="senha" placeholder="Confirme a sua senha" required>
                     </div>
 
                     <div class="col-12">

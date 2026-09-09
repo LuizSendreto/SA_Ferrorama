@@ -2,8 +2,8 @@
 
 $host = "localhost";
 $user = "root";
-$password = "";
-$database = "";
+$password = "root";
+$database = "banco_exemplo";
 
 
 $conn = new mysqli($host, $user, $password, $database);

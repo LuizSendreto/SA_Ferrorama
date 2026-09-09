@@ -1,3 +1,12 @@
+<?php
+
+include '../infra/conexao.php';
+
+
+?>
+
+
+
 <html class="login" lang="en">
 
 <head>
@@ -28,17 +37,17 @@
                 <form id="form_login">
                     <div class="conjunto">
                         <label for="email" class="form-label"></label>
-                        <input type="email" id="email" placeholder="Digite seu email" required>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
                     </div>
                     <div class="conjunto">
                         <label for="senha" class="form-label"></label>
-                        <input type="password" id="senha" placeholder="Digite sua senha" required>
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
                     </div>
-                    <button id="botao_login" type="submit" class="btn btn-outline-danger" onclick="window.location.href='../public/dashboard.html';">Entrar</button>
+                    <button id="botao_login" type="submit" class="btn btn-outline-danger" onclick="window.location.href='../public/dashboard.php';">Entrar</button>
                 </form>
                 <div class="Cadastro">
                     <p id="texto_login"> Você ainda não possui cadastro?</p>
-                    <a class="link1" href="cadastro.html">Cadastrar-se!</a>
+                    <a class="link1" href="cadastro.php">Cadastrar-se!</a>
                 </div>
 
             </div>
